@@ -1,0 +1,23 @@
+.accordion {
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 17px -9px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: var(--gray);
+    padding: 15px;
+}
+
+.accordion-content {
+    padding: 10px;
+}

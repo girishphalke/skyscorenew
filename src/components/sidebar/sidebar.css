@@ -1,0 +1,67 @@
+.sidebar {
+    background-color: var(--first-color);
+    color: var(--white);
+    height: 100vh;
+    width: 300px;
+    transition: all 0.5s;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 8px 0 20px -6px rgb(37 36 36 / 51%);
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+/* .logo {
+    font-size: 30px;
+} */
+
+a.Logo {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+a.Logo:hover {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.link {
+    display: flex;
+    color: var(--white);
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: var(--second-color);
+    color: var(--white);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.active {
+    background-color: var(--first-color);
+    color: var(--white);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.icon,
+.link_text {
+    font-size: 18px;
+}
